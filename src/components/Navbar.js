@@ -11,10 +11,10 @@ function Navbar() {
             <div className="grow" />
             
             <div className="flex gap-4 md:gap-8">
-                <Link to="/" className="text-xl md:text-2xl font-normal text-grey-text hover:text-black">Home</Link>
-                <Link to="about" className="text-xl md:text-2xl font-normal text-grey-text hover:text-black">About Us</Link>
-                <Link to="sponsors" className="text-xl md:text-2xl font-normal text-grey-text hover:text-black">Sponsors</Link>
-                <Link to="contact" className="text-xl md:text-2xl font-normal text-grey-text hover:text-black">Contact</Link>
+                <Link to="/" className="text-lg md:text-2xl font-normal text-grey-text hover:text-black">Home</Link>
+                <Link to="about" className="text-lg md:text-2xl font-normal text-grey-text hover:text-black">About Us</Link>
+                <Link to="sponsors" className="text-lg md:text-2xl font-normal text-grey-text hover:text-black">Sponsors</Link>
+                <Link to="contact" className="text-lg md:text-2xl font-normal text-grey-text hover:text-black">Contact</Link>
             </div>
         </div>
     );
