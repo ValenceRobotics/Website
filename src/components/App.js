@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="*" element={<Navigate replace to="/" />} />
+          <Route path="Website" element={<Navigate replace to="/" />} />
         </Routes>
 
         <div className="grow" />

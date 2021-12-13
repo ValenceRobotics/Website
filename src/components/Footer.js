@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <div className="bg-footer mt-16 pt-16 pb-8 px-4 md:px-16">
+        <div className="bg-footer mt-24 pt-16 pb-8 px-4 md:px-16">
             <div className="flex flex-wrap justify-evenly gap-y-12 gap-x-6">
                 <img className="w-24 h-24 lg:w-32 lg:h-32 justify-self-center" src={Logo} alt="Valence Robotics Logo" />
                 
