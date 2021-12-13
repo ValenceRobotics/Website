@@ -3,7 +3,7 @@ import Button from "./Button.js";
 
 function Jumbotron() {
     return (
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2 gap-y-8">
             <div className="flex justify-center">
                 <img src={logo} alt="Logo" className="max-h-56 m-auto" />
             </div>
