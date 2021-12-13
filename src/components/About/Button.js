@@ -10,12 +10,12 @@ function Button(props) {
     ); else {
         return (
             <Link to={props.to}>
-                <button class="rounded-full bg-dark-orange py-2 px-10 text-white drop-shadow-lg hover:bg-dark-orange font-bold text-lg">{props.text}</button>
+                <button class="rounded-full bg-dark-orange py-2 px-10 text-white drop-shadow-lg hover:bg-darker-orange font-bold text-lg">{props.text}</button>
             </Link>
-    
+
         );
     }
-    
+
 }
 
 export default Button;
