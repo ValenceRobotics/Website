@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <div className="flex flex-wrap items-center gap-y-2 md:gap-y-8 p-4 md:p-8 pr-8 md:pr-16 pt-6 pb-16">
             <img className="h-20 w-20" src={Logo} alt="logo" />
-            <div className="text-4xl font-bold text-dark-orange flex md:-ml-8">Valence <p className="text-black ml-2">Robotics</p></div>
+            <div className="text-3xl sm:text-4xl font-bold text-dark-orange flex xl:-ml-2">Valence <p className="text-black ml-2">Robotics</p></div>
             <div className="grow" />
             
             <div className="flex gap-4 md:gap-8">
