@@ -1,7 +1,9 @@
+import Jumbotron from "./Jumbotron";
+
 function About() {
   return (
-    <div className="text-3xl font-bold underline">
-      About.
+    <div className="">
+      <Jumbotron />
     </div>
   );
 }
