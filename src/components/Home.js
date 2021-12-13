@@ -23,7 +23,7 @@ function Home() {
             </div>
 
             <div className="flex justify-evenly flex-wrap gap-x-4 gap-y-16 mt-24">
-                <div className="container md:w-2/5 px-4 xl:px-16">
+                <div className="container md:w-2/5 px-4 md:px-16">
                     <h3 className="text-2xl text-center font-normal">Our Mission</h3>
                     <p className="text-center max-w-md mx-auto mt-3">Valence Robotics aims to <span className="font-bold">uplift</span> our diverse student community through opportunities to develop into motivated leaders of <span className="font-bold">science, technology, engineering, art,</span> and <span className="font-bold">math.</span></p>
                 </div>
