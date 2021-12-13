@@ -1,9 +1,11 @@
 import Logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 
+// TODO: Make responsive
+
 function Navbar() {
     return (
-        <div className="flex items-center gap-8 p-8 pr-16 pt-6">
+        <div className="flex items-center gap-8 p-8 pr-16 pt-6 pb-16">
             <img className="h-20 w-20" src={Logo} alt="logo" />
             <div className="text-4xl font-bold text-dark-orange flex -ml-8">Valence <p className="text-black ml-2">Robotics</p></div>
             <div className="grow" />
