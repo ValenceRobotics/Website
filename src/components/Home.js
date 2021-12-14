@@ -3,7 +3,7 @@ import TeamPhoto from "../assets/team3.png"
 
 function Home() {
     return (
-        <div className="w-screen">
+        <div className="w-screen mt-10" >
             <div className="mx-auto flex flex-wrap justify-evenly gap-y-16">
                 <div className="flex justify-center">
                     <div className="m-auto text-center">
