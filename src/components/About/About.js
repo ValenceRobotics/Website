@@ -6,7 +6,7 @@ import WhatIsFirst from "./WhatIsFirst";
 
 function About() {
   return (
-    <div className="">
+    <div className="mt-10">
       <div className="container mx-auto">
         <Jumbotron />
         <div className="mt-20" />
@@ -15,7 +15,7 @@ function About() {
         <WhatIsFirst />
         <div className="mt-20" />
         <InterestedInJoining />
-        <div className="mt-28"/>
+        <div className="mt-28" />
         <MeetTheTeam />
       </div>
     </div>
