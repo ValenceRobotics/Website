@@ -10,6 +10,7 @@ module.exports = {
         'darker-orange': '#d46213',
         'footer': '#FFDA7B',
         'grey-text': "#6F6F6F",
+        "purple": "#8E2DE2"
       },
       fontFamily: {
         sans: ['Roboto'],

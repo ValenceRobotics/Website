@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About/About";
 import Footer from "./Footer";
 import Banner from "./Banner";
+import Sponsor from "./Sponsor/Sponsor";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="sponsor" element={<Sponsor />} />
           <Route path="Website" element={<Navigate replace to="/" />} />
         </Routes>
 
