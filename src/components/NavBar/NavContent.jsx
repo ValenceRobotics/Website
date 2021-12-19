@@ -25,10 +25,6 @@ const links = [
         label: 'Sponsor',
         href: '/sponsor',
     },
-    {
-        label: 'Contact',
-        href: '/contact',
-    },
 ]
 
 const MobileNavContent = (props) => {
