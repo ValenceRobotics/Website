@@ -1,9 +1,9 @@
 import { Box, Flex, Text, Img } from '@chakra-ui/react'
 import * as React from 'react'
 import { NavContent } from './NavContent'
-import { motion, MotionConfig } from "framer-motion"
+import { motion } from "framer-motion"
 
-export const Navbar = () => (
+export const Navbar = (props) => (
     <Box bg="white" color="black" py="3" position="sticky" top="0" zIndex="100" >
         <Box as="header" height="16" position="relative">
             <Box
@@ -57,6 +57,7 @@ export const Navbar = () => (
                             md: 'flex',
                         }}
                         color="#6F6F6F"
+                        active={props.active}
                     />
                     <NavContent.Mobile
                         display={{
