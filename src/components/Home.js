@@ -1,7 +1,10 @@
 import Button from "./About/Button.js";
 import TeamPhoto from "../assets/team3.png"
+import HoneyNest from "../assets/honeynest_realty.png"
 import { Navbar } from "./NavBar";
 import Banner from "./Banner";
+import { SimpleGrid } from '@chakra-ui/react'
+import SponsorCard from './Sponsor/SponsorCard.js'
 
 function Home() {
     return (
@@ -42,6 +45,20 @@ function Home() {
                         <p className="text-center max-w-md mx-auto mt-3 text-xl italic">valencerobotics@gmail.com</p>
                     </div>
                 </div>
+
+                <div className="container mx-auto mt-24 px-4">
+                    <h1 className="text-4xl font-bold text-center text-dark-orange"><span className="text-black">Current</span> Sponsors</h1>
+
+                    <SimpleGrid minChildWidth='300px' spacing='40px' mt="4">
+
+                        <SponsorCard companyName="HoneyNest Realty" desc="HoneyNest Realty is a real estate company that specializes in residential and commercial real estate. We are a full service real estate company that offers a wide range of services including property management, property sales, property development, and property maintenance. We are located in Charlotte, North Carolina." img={HoneyNest} tier="Neon Tier Sponsor" />
+
+                        <div></div>
+
+                    </SimpleGrid>
+                </div>
+
+
             </div >
         </>
     );
