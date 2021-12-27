@@ -12,12 +12,13 @@ function Tier(props) {
                 return (
                     <>
 
-                        <div className="text-3xl text-center">
-                            <img src={tier.logo} className="inline w-14 mr-3" alt="logo" />
-                            <h1 className="text-purple text-center font-bold  inline">{tier.level}</h1>
-                            <h1 className="text-center font-bold inline"> Tier Sponsor {tier.price}</h1>
+                        <div className="text-4xl text-center mt-10">
+                            <h1 className={`text-center font-extrabold inline text-purple`}>{tier.level}</h1>
+                            <h1 className="text-center font-bold inline"> {tier.followingText}</h1>
+                            <h1 className="text-center font-bold text-2xl text-blue-400 italic">{tier.price}</h1>
+
                         </div>
-                        <SimpleGrid minChildWidth="300px" spacingX="10px" spacingY="10px">
+                        <SimpleGrid minChildWidth="300px" spacingX="10px" spacingY="10px" mt="8">
                             {
                                 tier.benefits.map((benefit, index) => {
                                     return (

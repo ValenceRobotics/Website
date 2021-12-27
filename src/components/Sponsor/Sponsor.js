@@ -13,7 +13,8 @@ function Sponsor() {
             <div className="mt-10">
                 <Landing />
                 <div className="mt-20" />
-                <WhatIsFirst heading="Why Us?" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem." />
+                <WhatIsFirst heading="Why Us?">The mission of Valence Robotics is to uplift our diverse student community through opportunities to develop into motivated leaders of science, technology, engineering, art, and math. Created for and initiated by students, our FIRST Robotics Competition team seeks to guide members to become well-rounded industry professionals.
+                </WhatIsFirst>
                 <div className="mt-20" />
                 <Interested />
                 <div className="mt-20" />

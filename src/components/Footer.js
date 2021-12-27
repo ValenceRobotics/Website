@@ -66,7 +66,7 @@ function Footer() {
                 <div id="formResponse">
                     <h1 className="font-bold text-xl mb-2">Join our Newsletter!</h1>
                     <input className="text-base md:text-lg placeholder:text:grey-text rounded-l-lg px-3 py-1" id="email" placeholder="Email" />
-                    <button className="rounded-r-lg text-base md:text-lg bg-dark-orange text-white font-bold hover:bg-darker-orange py-1 px-5" id="signup" onClick={subscribeEmail}>Join</button>
+                    <button className="rounded-r-lg text-base md:text-lg bg-dark-orange text-white font-bold duration-300 hover:bg-darker-orange py-1 px-5" id="signup" onClick={subscribeEmail}>Join</button>
                 </div>
             </div>
 

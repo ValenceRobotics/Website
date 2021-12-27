@@ -9,6 +9,10 @@ import Banner from "../Banner";
 function About() {
   return (
     <>
+      <head>
+        <title>About</title>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <Navbar active="about" />
       <Banner />
       <div className="mt-10">
@@ -17,7 +21,8 @@ function About() {
           <div className="mt-20" />
           <OurTeam />
           <div className="mt-20" />
-          <WhatIsFirst heading="What is FIRST?" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem." />
+          <WhatIsFirst heading="What is FIRST?">FIRST® (For Inspiration and Recognition of Science and Technology) is a non-profit organization dedicated to advancing STEM education in the next generation of students. FIRST® Robotics Competition is one of the programs– alongside FIRST® LEGO® Lego League, FIRST® Tech Challenge, and others– aimed specifically at high school students.
+            Find out more <a href="https://www.firstinspires.org/" target="_blank" rel="noreferrer" className="text-blue-500 hover:text-blue-900">here</a></WhatIsFirst>
           <div className="mt-20" />
           <InterestedInJoining />
           <div className="mt-28" />
