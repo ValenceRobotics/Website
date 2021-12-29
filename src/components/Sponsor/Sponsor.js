@@ -13,7 +13,7 @@ function Sponsor() {
             <div className="mt-10">
                 <Landing />
                 <div className="mt-20" />
-                <WhatIsFirst heading="Why Us?">The mission of Valence Robotics is to uplift our diverse student community through opportunities to develop into motivated leaders of science, technology, engineering, art, and math. Created for and initiated by students, our FIRST Robotics Competition team seeks to guide members to become well-rounded industry professionals.
+                <WhatIsFirst heading="Why Us?">As a highschool student established and powered team, we are always looking for support in whatever means it may come.
                 </WhatIsFirst>
                 <div className="mt-20" />
                 <Interested />

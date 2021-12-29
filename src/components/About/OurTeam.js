@@ -9,7 +9,7 @@ function OurTeam() {
         <div className="grid md:grid-cols-2 gap-y-8 gap-x-4">
             <div className="m-auto px-4">
                 <h3 className="text-2xl text-center font-bold text-light-orange">Our Team</h3>
-                <p className="text-center max-w-md mx-auto mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem.</p>
+                <p className="text-center max-w-md mx-auto mt-3">Our team began as a group of chemistry students working late one night in the library, when one student, our captain, started formulating an ambitious idea. After much time spent deliberating on the thought, we concurred: We wanted to start a FIRST® Robotics Competition team, completely founded and driven by students. The beginnings were rough, many hours consumed by reaching through doors, many of which lead to even harder paths or even dead ends. However, with our growing group of devoted students, we have preserved and developed into the team it is today.</p>
             </div>
 
             <div className="m-auto px-4">
