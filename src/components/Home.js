@@ -20,7 +20,7 @@ function Home() {
                             <p className="text-center text-lg text-gray-500 italic mt-8 px-12">Transforming the students of today into the leaders of tomorrow</p>
 
                             <div className="mt-8 flex justify-center gap-6">
-                                <Button className="" text="Join Us" to="JOIN US LINK" dark={true} />
+                                <Button className="" text="Join Us" to="https://docs.google.com/forms/d/e/1FAIpQLScqY1hIwYAXldG9aOpobT0Uxm4xXzQeZVyaQUJAkupFeL6QHw/viewform" dark={true} />
                                 <Button className="" text="Sponsor Us" to="sponsor" />
                             </div>
                         </div>
@@ -40,7 +40,7 @@ function Home() {
 
                     <div className="container md:w-2/5 px-4 xl:px-16">
                         <h3 className="text-2xl text-center font-normal">Who are we?</h3>
-                        <p className="text-center max-w-md mx-auto mt-3">VValence Robotics is a FIRST® Robotics Competition team and 501(c)3 organization. Our team was established in October 2021 with the mission of furthering connectivity and curiosity within the community. While we operate primarily in Durham, North Carolina, our members come from counties all across the state.</p>
+                        <p className="text-center max-w-md mx-auto mt-3">Valence Robotics is a FIRST® Robotics Competition team and 501(c)3 organization. Our team was established in October 2021 with the mission of furthering connectivity and curiosity within the community. While we operate primarily in Durham, North Carolina, our members come from counties all across the state.</p>
 
                         <p className="text-center max-w-md mx-auto mt-3 text-xl italic">valencerobotics@gmail.com</p>
                     </div>
