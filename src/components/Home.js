@@ -33,29 +33,25 @@ function Home() {
                 <div className="flex justify-evenly flex-wrap gap-x-4 gap-y-16 mt-24">
                     <div className="container md:w-2/5 px-4 md:px-16">
                         <h3 className="text-2xl text-center font-normal">Our Mission</h3>
-                        <p className="text-center max-w-md mx-auto mt-3">The mission of Valence Robotics is to uplift our diverse student community through opportunities to develop into motivated leaders of science, technology, engineering, art, and math. Created for and initiated by students, our team seeks to guide members to become <span className="font-bold">uplift</span><span className="font-bold">well-rounded</span> industry <span className="font-bold">profesionals.</span></p>
+                        <p className="text-center max-w-md mx-auto mt-3">The mission of Valence Robotics is to uplift our diverse student community through opportunities to develop into motivated leaders of science, technology, engineering, art, and math. Created for and initiated by students, our team seeks to guide members to become uplift well-rounded industry profesionals.</p>
 
                         <p className="text-center max-w-md mx-auto mt-3 text-xl italic">(919) 916-8888</p>
                     </div>
 
                     <div className="container md:w-2/5 px-4 xl:px-16">
                         <h3 className="text-2xl text-center font-normal">Who are we?</h3>
-                        <p className="text-center max-w-md mx-auto mt-3">Valence Robotics (FRC Team 8864) is a 501(c)(3) <span className="font-bold">nonprofit organization</span> started by a group of dedicated students from North Carolina's School of Science and Mathematics (<span className="font-bold">NCSSM</span>). The team was established in October 2021 as a result of a spark of inspiration from its founding members. </p>
+                        <p className="text-center max-w-md mx-auto mt-3">VValence Robotics is a FIRST® Robotics Competition team and 501(c)3 organization. Our team was established in October 2021 with the mission of furthering connectivity and curiosity within the community. While we operate primarily in Durham, North Carolina, our members come from counties all across the state.</p>
 
                         <p className="text-center max-w-md mx-auto mt-3 text-xl italic">valencerobotics@gmail.com</p>
                     </div>
                 </div>
 
                 <div className="container mx-auto mt-24 px-4">
-                    <h1 className="text-4xl font-bold text-center text-dark-orange"><span className="text-black">Current</span> Sponsors</h1>
+                    <h1 className="text-4xl font-bold text-center text-dark-orange my-4"><span className="text-black">Current</span> Sponsors</h1>
 
-                    <SimpleGrid minChildWidth='300px' spacing='40px' mt="4">
 
-                        <SponsorCard companyName="HoneyNest Realty" desc="HoneyNest Realty is a real estate company that specializes in residential and commercial real estate. We are a full service real estate company that offers a wide range of services including property management, property sales, property development, and property maintenance. We are located in Charlotte, North Carolina." img={HoneyNest} tier="Neon Tier Sponsor" />
+                    <SponsorCard companyName="HoneyNest Realty" desc="We are on a mission to find your sweet nest and grow your “nest” worth." img={HoneyNest} tier="Neon Tier Sponsor" />
 
-                        <div></div>
-
-                    </SimpleGrid>
                 </div>
 
 

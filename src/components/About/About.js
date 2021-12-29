@@ -25,8 +25,7 @@ function About() {
             Find out more <a href="https://www.firstinspires.org/" target="_blank" rel="noreferrer" className="text-blue-500 hover:text-blue-900">here</a></WhatIsFirst>
           <div className="mt-20" />
           <InterestedInJoining />
-          <div className="mt-28" />
-          <MeetTheTeam />
+          {/* <MeetTheTeam /> */}
         </div>
       </div>
     </>

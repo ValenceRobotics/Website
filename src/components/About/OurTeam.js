@@ -16,13 +16,13 @@ function OurTeam() {
                 <img src={Team1} alt="team1" />
                 <div className="text-center mt-4">
                     <IconContext.Provider value={{ className: "text-3xl text-dark-orange" }}>
-                        <a href="GITHUB LINK" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/ValenceRobotics" target="_blank" rel="noopener noreferrer">
                             <GoMarkGithub className="inline" />
                         </a>
-                        <a href="INSTA LINK" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/valence_robotics/" target="_blank" rel="noopener noreferrer">
                             <AiOutlineInstagram className="inline" />
                         </a>
-                        <a href="PAYPAL LINK" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.paypal.com/paypalme/valencerobotics" target="_blank" rel="noopener noreferrer">
                             <BsPaypal className="inline" />
                         </a>
                     </IconContext.Provider>

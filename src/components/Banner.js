@@ -2,9 +2,9 @@ import Button from "./About/Button.js";
 
 function Banner() {
     return (
-        <div className="w-screen text-center bg-light-orange py-1">
-            <a href="DONATEL INK" className="text-white font-bold">Donate to Valence Robotics!</a>
-        </div >
+
+        <a href="https://www.paypal.com/paypalme/valencerobotics" rel="noreferrer" target="_blank" className="text-white font-bold"><div className="w-screen text-center bg-light-orange py-1 hover:bg-dark-orange duration-300">Donate to Valence Robotics!</div ></a>
+
     );
 }
 

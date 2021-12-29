@@ -11,7 +11,7 @@ function Interested(props) {
                         <div className="bg-light-orange rounded-full w-8 h-8 flex justify-center items-center mr-2">
                             <h1 className="text-2xl md:text-3xl font-bold text-center text-white">1</h1>
                         </div>
-                        <h2 className="text-xl md:text-2xl font-bold text-center text-black align-middle">Fill out the <a href="https://c1h0s3jjlx4.typeform.com/to/efpc56TR" className="text-light-orange underline hover:text-dark-orange">sponsor information form</a></h2>
+                        <h2 className="text-xl md:text-2xl font-bold text-center text-black align-middle">Fill out the <a href="https://c1h0s3jjlx4.typeform.com/to/efpc56TR" target="_blank" className="text-light-orange underline hover:text-dark-orange" rel="noreferrer">sponsor information form</a></h2>
                     </div>
 
                     <div className="flex justify-center">

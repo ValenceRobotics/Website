@@ -15,7 +15,7 @@ function Jumbotron() {
                     <p className="text-center text-lg text-gray-500 italic mt-8">Valence Robotics (FRC Team 8864)</p>
 
                     <div className="mt-8">
-                        <Button className="" text="Join Us" to="JOIN US LINK" />
+                        <Button className="" text="Join Us" to="https://docs.google.com/forms/d/e/1FAIpQLScqY1hIwYAXldG9aOpobT0Uxm4xXzQeZVyaQUJAkupFeL6QHw/viewform?usp=sf_link" />
                     </div>
                 </div>
             </div>
