@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "https://valencerobotics.org/Website",
+  "homepage": "https://valencerobotics.org/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
