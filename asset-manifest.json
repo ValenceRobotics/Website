@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7230535a.css",
-    "main.js": "/static/js/main.8ea19afc.js",
+    "main.css": "/static/css/main.b36ea403.css",
+    "main.js": "/static/js/main.916ee40f.js",
     "static/media/logo.png": "/static/media/logo.9cf317697a4bc8d2231b.png",
     "static/media/team3.png": "/static/media/team3.beb642758c25f5817cd9.png",
     "static/media/team 1.png": "/static/media/team 1.85b489565da5f6c83f34.png",
     "static/media/honeynest_realty.png": "/static/media/honeynest_realty.0366673040b3f28c8f22.png",
     "index.html": "/index.html",
-    "main.7230535a.css.map": "/static/css/main.7230535a.css.map",
-    "main.8ea19afc.js.map": "/static/js/main.8ea19afc.js.map"
+    "main.b36ea403.css.map": "/static/css/main.b36ea403.css.map",
+    "main.916ee40f.js.map": "/static/js/main.916ee40f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7230535a.css",
-    "static/js/main.8ea19afc.js"
+    "static/css/main.b36ea403.css",
+    "static/js/main.916ee40f.js"
   ]
 }
