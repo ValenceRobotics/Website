@@ -9,9 +9,10 @@ function Landing({ blackText, orangeText, desc, buttonLink, buttonText }) {
 
                     <p className="text-center text-lg text-gray-500 italic mt-8 font-para">{desc}</p>
 
-                    <div className="mt-8">
-                        <Button text={buttonText} to={buttonLink} />
-                    </div>
+                    {buttonText && buttonLink &&
+                        <div className="mt-8">
+                            <Button text={buttonText} to={buttonLink} />
+                        </div>}
                 </div>
             </div>
         </div>
