@@ -25,6 +25,10 @@ const links = [
         label: 'Sponsor',
         href: '/sponsor',
     },
+    {
+        label: 'Resources',
+        href: '/resources',
+    },
 ]
 
 const MobileNavContent = (props) => {
@@ -76,7 +80,7 @@ const DesktopNavContent = (props) => {
                     </NavLink.Desktop>)
                 }
                 return (
-                    <NavLink.Desktop key={index} href={link.href} fontSize="xl" fontWeight="bold" _hover={{ color: "black" }}>
+                    <NavLink.Desktop key={index} href={link.href} fontSize="xl" fontWeight="bold" _hover={{ color: "black" }} className="font-heading">
                         {link.label}
                     </NavLink.Desktop>
                 )

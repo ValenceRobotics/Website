@@ -34,6 +34,7 @@ export const Navbar = (props) => (
                             mt="-1"
                         />
                         <Text
+                            className="font-heading"
                             as="h1"
                             fontSize="3xl"
                             fontWeight="extrabold"
@@ -42,6 +43,7 @@ export const Navbar = (props) => (
                             color="#F79B4C"
                         >Valence</Text>
                         <Text
+                            className="font-heading"
                             as="h1"
                             fontSize="3xl"
                             fontWeight="extrabold"

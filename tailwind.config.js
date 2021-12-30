@@ -14,7 +14,9 @@ module.exports = {
         "purple": "#8E2DE2"
       },
       fontFamily: {
-        sans: ['Roboto'],
+        para: ['Chivo', 'sans-serif'],
+        heading: ['Oxygen', 'sans-serif'],
+        display: ['Chivo', 'sans-serif']
       }
     },
   },

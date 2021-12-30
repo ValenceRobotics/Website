@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About/About";
 import Footer from "./Footer";
 import Sponsor from "./Sponsor/Sponsor";
+import Resources from "./Resources";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="sponsor" element={<Sponsor />} />
+          <Route path="resources" element={<Resources />} />
           <Route path="Website" element={<Navigate replace to="/" />} />
         </Routes>
 

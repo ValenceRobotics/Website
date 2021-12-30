@@ -3,7 +3,7 @@ import { IconContext } from 'react-icons';
 
 function Bullet(props) {
     return (
-        <div className="">
+        <div className="font-para">
             <IconContext.Provider value={{ className: "text-light-orange text-3xl" }}>
                 <IoIosCheckmarkCircleOutline className="inline mr-2 sponsor-icons" />
             </IconContext.Provider>

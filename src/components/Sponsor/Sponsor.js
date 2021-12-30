@@ -11,14 +11,20 @@ function Sponsor() {
             <Navbar active="sponsor" />
             <Banner />
             <div className="mt-10">
-                <Landing />
+                <Landing
+                    blackText="Sponsor "
+                    orangeText="Valence Robotics"
+                    desc="Valence Robotics FRC Team 8864"
+                    buttonLink="https://c1h0s3jjlx4.typeform.com/to/efpc56TR"
+                    buttonText="Sponsorship Form"
+                />
                 <div className="mt-20" />
                 <WhatIsFirst heading="Why Us?">As a highschool student established and powered team, we are always looking for support in whatever means it may come.
                 </WhatIsFirst>
                 <div className="mt-20" />
                 <Interested />
                 <div className="mt-20" />
-                <h1 className="text-4xl font-bold text-center text-light-orange">Sponsorship <span className="text-black">Tiers</span></h1>
+                <h1 className="text-4xl font-bold text-center text-light-orange font-heading">Sponsorship <span className="text-black">Tiers</span></h1>
                 <Tier />
 
 
