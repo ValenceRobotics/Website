@@ -14,7 +14,7 @@ function Sponsor() {
                 <Landing
                     blackText="Sponsor "
                     orangeText="Valence Robotics"
-                    desc="Valence Robotics FRC Team 8864"
+                    desc="Valence Robotics FRC Team 8429"
                     buttonLink="https://c1h0s3jjlx4.typeform.com/to/efpc56TR"
                     buttonText="Sponsorship Form"
                 />
