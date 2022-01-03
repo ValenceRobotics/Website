@@ -28,7 +28,7 @@ const links = [
     {
         label: 'Resources',
         href: '/resources',
-    },
+    }
 ]
 
 const MobileNavContent = (props) => {

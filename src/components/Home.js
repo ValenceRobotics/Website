@@ -33,15 +33,11 @@ function Home() {
                     <div className="container md:w-2/5 px-4 md:px-16">
                         <h3 className="text-2xl text-center font-normal font-heading">Our Mission</h3>
                         <p className="text-center max-w-md mx-auto mt-3 font-para">The mission of Valence Robotics is to uplift our diverse student community through opportunities to develop into motivated leaders of science, technology, engineering, art, and math. Created for and initiated by students, our team seeks to guide members to become uplift well-rounded industry profesionals.</p>
-
-                        <p className="text-center max-w-md mx-auto mt-3 text-xl italic font-para">(919) 916-8888</p>
                     </div>
 
                     <div className="container md:w-2/5 px-4 xl:px-16">
                         <h3 className="text-2xl text-center font-normal font-heading">Who are we?</h3>
                         <p className="text-center max-w-md mx-auto mt-3 font-para">Valence Robotics is a FIRST® Robotics Competition team and 501(c)3 organization. Our team was established in October 2021 with the mission of furthering connectivity and curiosity within the community. While we operate primarily in Durham, North Carolina, our members come from counties all across the state.</p>
-
-                        <p className="text-center max-w-md mx-auto mt-3 text-xl italic font-para">valencerobotics@gmail.com</p>
                     </div>
                 </div>
 
