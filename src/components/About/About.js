@@ -37,7 +37,7 @@ function About() {
               <h1 className="text-4xl font-bold text-light-orange font-heading">Contact <span className="text-black">Us</span></h1>
               <p className="italic mt-1">Feel free to reach out!</p>
 
-              <p className=" mt-3 text-xl font-para"><span className="font-bold">Phone: </span>(919) 916-8888</p>
+              <p className=" mt-3 text-xl font-para"><span className="font-bold">Phone: </span>(919) 886-4388</p>
               <p className="  text-xl font-para"><span className="font-bold">Email: </span>leadership@valencerobotics.org</p>
               <p className="  text-xl font-para"><span className="font-bold">Location: </span>Durham, NC</p>
 
