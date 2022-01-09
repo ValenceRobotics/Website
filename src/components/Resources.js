@@ -2,6 +2,9 @@ import { Navbar } from "./NavBar";
 import Banner from "./Banner";
 import Landing from "./Sponsor/Landing"
 import Button from "./About/Button";
+import Branding from '../assets/Branding Document.pdf'
+import SponsorshipPacket from '../assets/Sponsor Packet.pdf'
+import SponsorProspectus from '../assets/21-22 Valence Robotics Prospectus.pdf'
 
 
 function Resources() {
@@ -45,13 +48,14 @@ function Resources() {
 
                 <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Branding <span className="text-black">Document</span></h1>
 
-                <iframe title="Branding Doc" src="https://docs.google.com/document/d/e/2PACX-1vQuEnZwbREs6vQt_-5z98d4ArxxMnNyktX6Y1PuoNu0zWYGPPbK8Q3CMyJIrZihzOSpsg_6VTMTrdF3/pub?embedded=true" className="w-full md:w-1/2 mx-auto h-screen drop-shadow-lg  border-4 border-slate-400 "></iframe>
+                <object className="w-full md:w-1/2 mx-auto h-screen drop-shadow-lg  " data={Branding} type="application/pdf" aria-label="Branding Document" />
 
                 <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Sponsor <span className="text-black">Packet</span></h1>
-                <iframe title="sponsor packet" src="https://docs.google.com/document/d/e/2PACX-1vRyNj9g2bXW7WVVO6OevSl7JxC-tMrT7UWWdmKzGrr7IfBV5KCd6-6xSuSbkiRXJP9U0U-zjAAc6ThC/pub?embedded=true" className="w-full md:w-1/2 mx-auto h-screen drop-shadow-lg  border-4 border-slate-400 "></iframe>
+
+                <object className="w-full md:w-1/2 mx-auto h-screen drop-shadow-lg  " data={SponsorshipPacket} type="application/pdf" aria-label="Sponsorship Packet" />
 
                 <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Sponsor <span className="text-black">Prospectus</span></h1>
-                <iframe title="sponsor prospectus" src="https://docs.google.com/document/d/e/2PACX-1vSsNY4c7Ncz5xmGMYxOE5kNuctw7Oex92gZ2psJUvjo_-mYmITmkpGytFjvr49WKczJrPeP9p2tdsiX/pub?embedded=true" className="w-full md:w-1/2 mx-auto h-screen drop-shadow-lg  border-4 border-slate-400 "></iframe>
+                <object className="w-full md:w-1/2 mx-auto h-screen drop-shadow-lg  " data={SponsorProspectus} type="application/pdf" aria-label="Sponsorship Prospectus" />
             </div>
         </>
     );
