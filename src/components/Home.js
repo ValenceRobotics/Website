@@ -6,6 +6,9 @@ import Banner from "./Banner";
 import SponsorCard from './Sponsor/SponsorCard.js'
 
 function Home() {
+    const unScaleDimensions = [1920, 1080];
+    const scaleFactor = 3;
+    const scaleDimensions = [unScaleDimensions[0] / scaleFactor, unScaleDimensions[1] / scaleFactor];
     return (
         <>
             <Navbar active="home" />
@@ -25,14 +28,15 @@ function Home() {
                         </div>
                     </div>
                     <div className="flex justify-center">
-                        <img src={TeamPhoto} alt="our team" className="w-4/5 m-auto" />
+                        {/* <img src={TeamPhoto} alt="our team" className="w-4/5 m-auto" /> */}
+                        <iframe src="https://drive.google.com/file/d/1bCwoRxqKAMQDp30Bm3WXuNDk5fno9ZJC/preview" width={scaleDimensions[0]} height={scaleDimensions[1]} allow="autoplay"></iframe>
                     </div>
                 </div>
 
                 <div className="flex justify-evenly flex-wrap gap-x-4 gap-y-16 mt-24">
                     <div className="container md:w-2/5 px-4 md:px-16">
                         <h3 className="text-2xl text-center font-normal font-heading">Our Mission</h3>
-                        <p className="text-center max-w-md mx-auto mt-3 font-para">The mission of Valence Robotics is to uplift our diverse student community through opportunities to develop into motivated leaders of science, technology, engineering, art, and math. Created for and initiated by students, our team seeks to guide members to become uplift well-rounded industry profesionals.</p>
+                        <p className="text-center max-w-md mx-auto mt-3 font-para">The mission of Valence Robotics is to uplift our diverse student community through opportunities to develop into motivated leaders of science, technology, engineering, art, and math. Created for and initiated by students, our team seeks to guide members to become uplift well-rounded industry professionals.</p>
                     </div>
 
                     <div className="container md:w-2/5 px-4 xl:px-16">
