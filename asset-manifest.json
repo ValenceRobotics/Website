@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.593cbf86.css",
-    "main.js": "/static/js/main.8691ea81.js",
+    "main.css": "/static/css/main.e0eb5d42.css",
+    "main.js": "/static/js/main.c9440c6d.js",
     "static/media/logo.png": "/static/media/logo.9cf317697a4bc8d2231b.png",
     "static/media/team3.png": "/static/media/team3.beb642758c25f5817cd9.png",
     "static/media/Branding Document.pdf": "/static/media/Branding Document.65a4dd0646c930fa8e6c.pdf",
+    "static/media/three_oaks.jpg": "/static/media/three_oaks.7d9e65de6eabb9c35e6c.jpg",
     "static/media/team 1.png": "/static/media/team 1.85b489565da5f6c83f34.png",
     "static/media/21-22 Valence Robotics Prospectus.pdf": "/static/media/21-22 Valence Robotics Prospectus.ad6cd1c09fcdd8cc453c.pdf",
     "static/media/Sponsor Packet.pdf": "/static/media/Sponsor Packet.a66e6bbd1826a9d10633.pdf",
     "static/media/honeynest_realty.png": "/static/media/honeynest_realty.0366673040b3f28c8f22.png",
     "index.html": "/index.html",
-    "main.593cbf86.css.map": "/static/css/main.593cbf86.css.map",
-    "main.8691ea81.js.map": "/static/js/main.8691ea81.js.map"
+    "main.e0eb5d42.css.map": "/static/css/main.e0eb5d42.css.map",
+    "main.c9440c6d.js.map": "/static/js/main.c9440c6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.593cbf86.css",
-    "static/js/main.8691ea81.js"
+    "static/css/main.e0eb5d42.css",
+    "static/js/main.c9440c6d.js"
   ]
 }
