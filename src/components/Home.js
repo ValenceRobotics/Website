@@ -1,6 +1,7 @@
 import Button from "./About/Button.js";
 import TeamPhoto from "../assets/team3.png"
 import HoneyNest from "../assets/honeynest_realty.png"
+import ThreeOaks from "../assets/three_oaks.jpg"
 import { Navbar } from "./NavBar";
 import Banner from "./Banner";
 import SponsorCard from './Sponsor/SponsorCard.js'
@@ -49,7 +50,11 @@ function Home() {
                     <h1 className="text-4xl font-bold text-center text-dark-orange my-4 font-heading"><span className="text-black">Current</span> Sponsors</h1>
 
 
-                    <SponsorCard companyName="HoneyNest Realty" desc="We are on a mission to find your sweet nest and grow your “nest” worth." img={HoneyNest} tier="Neon Tier Sponsor" />
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                        <SponsorCard companyName="HoneyNest Realty" desc="We are on a mission to find your sweet nest and grow your “nest” worth." img={HoneyNest} tier="Neon Tier Sponsor" />
+
+                        <SponsorCard companyName="Three Oaks Engineering" desc="Three Oaks Engineering is a woman-owned business focused on helping our clients accomplish infrastructure projects with careful consideration of community and environmental needs." img={ThreeOaks} tier="Krypton Tier Sponsor" href="https://threeoaksengineering.com/" />
+                    </div>
 
                 </div>
 
