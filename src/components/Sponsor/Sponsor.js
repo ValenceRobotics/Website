@@ -25,6 +25,7 @@ function Sponsor() {
                 <Interested />
                 <div className="mt-20" />
                 <h1 className="text-4xl font-bold text-center text-light-orange font-heading">Sponsorship <span className="text-black">Tiers</span></h1>
+                <p className='text-center text-lg mt-2 max-w-5xl mx-auto '>Only sponsorships finalized before February 14, 2022 will be included on the 21-22 season team shirts. However, sponsorships received after this date will be included on next team's shirts and will be featured on the current website.</p>
                 <Tier />
 
 
