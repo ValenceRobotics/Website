@@ -7,7 +7,7 @@ function Landing({ blackText, orangeText, desc, buttonLink, buttonText }) {
                 <div className="m-auto text-center">
                     <h1 className="lg:text-7xl text-5xl  font-bold text-center font-heading">{blackText} <span className="text-light-orange">{orangeText}</span></h1>
 
-                    <p className="text-center text-lg text-gray-500 italic mt-8 font-para">{desc}</p>
+                    <p className="text-center text-lg text-gray-500 italic mt-8 font-para dark:text-slate-200">{desc}</p>
 
                     {buttonText && buttonLink &&
                         <div className="mt-8">

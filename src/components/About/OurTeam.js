@@ -1,4 +1,4 @@
-import Team1 from '../../assets/team 1.png';
+import Team from '../../assets/team_picture.jpg';
 
 
 function OurTeam() {
@@ -10,7 +10,7 @@ function OurTeam() {
             </div>
 
             <div className="m-auto px-4">
-                <img src={Team1} alt="team1" />
+                <img src={Team} alt="team1" className="rounded-lg" />
 
             </div>
         </div>

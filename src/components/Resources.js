@@ -23,7 +23,7 @@ function Resources() {
                     desc="Branding, Marketing, and more"
                 />
 
-                <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Important <span className="text-black">Links</span></h1>
+                <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Important <span className="text-black dark:text-slate-200">Links</span></h1>
                 <div className="text-center mt-10">
                     <Button
                         text="Recruitment Flyer"
@@ -46,15 +46,15 @@ function Resources() {
                     />
                 </div>
 
-                <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Branding <span className="text-black">Document</span></h1>
+                <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Branding <span className="text-black dark:text-slate-200">Document</span></h1>
 
                 <object className="w-full md:w-1/2 mx-auto h-screen drop-shadow-lg  " data={Branding} type="application/pdf" aria-label="Branding Document" />
 
-                <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Sponsor <span className="text-black">Packet</span></h1>
+                <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Sponsor <span className="text-black dark:text-slate-200">Packet</span></h1>
 
                 <object className="w-full md:w-1/2 mx-auto h-screen drop-shadow-lg  " data={SponsorshipPacket} type="application/pdf" aria-label="Sponsorship Packet" />
 
-                <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Sponsor <span className="text-black">Prospectus</span></h1>
+                <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Sponsor <span className="text-black dark:text-slate-200">Prospectus</span></h1>
                 <object className="w-full md:w-1/2 mx-auto h-screen drop-shadow-lg  " data={SponsorProspectus} type="application/pdf" aria-label="Sponsorship Prospectus" />
             </div>
         </>

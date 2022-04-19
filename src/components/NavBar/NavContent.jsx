@@ -40,22 +40,22 @@ const MobileNavContent = (props) => {
                 p="2"
                 fontSize="2xl"
                 onClick={onToggle}
-                color="black"
+                color="white"
             >
                 {isOpen ? <HiX /> : <HiOutlineMenu />}
             </Center>
             <NavList
                 pos="absolute"
                 insetX="0"
-                bg="white"
+                bg="black"
 
                 top="64px"
                 animate={isOpen ? 'enter' : 'exit'}
             >
-                <Stack spacing="0" divider={<StackDivider />}>
+                <Stack spacing="0" divider={<StackDivider color="#b3b3b3" opacity={0.5} />}>
                     {links.map((link, index) => (
                         <NavListItem key={index} >
-                            <NavLink.Mobile color="#6F6F6F" href={link.href}>{link.label}</NavLink.Mobile>
+                            <NavLink.Mobile color="white" href={link.href}>{link.label}</NavLink.Mobile>
                         </NavListItem>
                     ))}
                     <NavListItem
@@ -75,12 +75,12 @@ const DesktopNavContent = (props) => {
         <HStack spacing="8" align="stretch" {...props}>
             {links.map((link, index) => {
                 if (link.label.toLowerCase() === props.active) {
-                    return (<NavLink.Desktop key={index} href={link.href} fontSize="xl" color="black" fontWeight="bold" _hover={{ color: "black" }}>
+                    return (<NavLink.Desktop key={index} href={link.href} fontSize="xl" color="#b3b3b3" fontWeight="bold" _hover={{ color: "#828282" }}>
                         {link.label}
                     </NavLink.Desktop>)
                 }
                 return (
-                    <NavLink.Desktop key={index} href={link.href} fontSize="xl" fontWeight="bold" _hover={{ color: "black" }} className="font-heading">
+                    <NavLink.Desktop key={index} href={link.href} fontSize="xl" fontWeight="bold" color="white" _hover={{ color: "#b3b3b3" }} className="font-heading">
                         {link.label}
                     </NavLink.Desktop>
                 )
