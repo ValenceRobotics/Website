@@ -18,7 +18,8 @@ module.exports = {
       fontFamily: {
         para: ['Chivo', 'sans-serif'],
         heading: ['Oxygen', 'sans-serif'],
-        display: ['Chivo', 'sans-serif']
+        display: ['Chivo', 'sans-serif'],
+        name: ['Orbitron', 'Oxygen', 'sans-serif'],
       }
     },
   },

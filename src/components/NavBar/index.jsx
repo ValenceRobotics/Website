@@ -42,6 +42,7 @@ export const Navbar = (props) => (
                             maxW="48rem"
                             display="inline"
                             color="#F79B4C"
+                            fontFamily={['Orbitron', 'sans-serif']}
                         >Valence</Text>
                         <Text
                             className="font-heading"
@@ -50,6 +51,7 @@ export const Navbar = (props) => (
                             fontWeight="extrabold"
                             maxW="48rem"
                             display="inline"
+                            fontFamily={['Orbitron', 'sans-serif']}
                         > Robotics</Text>
                     </motion.a>
 

@@ -18,7 +18,7 @@ function Home() {
                 <div className="mx-auto flex flex-wrap justify-evenly gap-y-16">
                     <div className="flex justify-center">
                         <div className="m-auto text-center">
-                            <h1 className="text-7xl font-bold text-center font-heading"><span className="text-light-orange">Valence</span> Robotics</h1>
+                            <h1 className="text-7xl font-bold text-center font-name"><span className="text-light-orange">Valence</span> Robotics</h1>
 
                             <p className="text-center text-lg text-slate-200 italic mt-8 px-12 font-para">Transforming the students of today into the leaders of tomorrow</p>
 
