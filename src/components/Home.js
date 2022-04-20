@@ -30,7 +30,7 @@ function Home() {
                     </div>
                     <div className="flex justify-center">
                         {/* <img src={TeamPhoto} alt="our team" className="w-4/5 m-auto" /> */}
-                        <iframe src="https://drive.google.com/file/d/1bCwoRxqKAMQDp30Bm3WXuNDk5fno9ZJC/preview" width={scaleDimensions[0]} height={scaleDimensions[1]} allow="autoplay"></iframe>
+                        <iframe src="https://drive.google.com/file/d/1HmeW_WZMsmFJCqHhrNTB8PLhBsDbm6C5/preview" width={scaleDimensions[0]} height={scaleDimensions[1]} allow="autoplay"></iframe>
                     </div>
                 </div>
 
