@@ -24,7 +24,7 @@ function About() {
         <div className="container mx-auto">
           <Jumbotron />
           <div className="mt-20" />
-          <WhatIsFirst heading="What is FIRST?">FIRST® (For Inspiration and Recognition of Science and Technology) is a non-profit organization dedicated to advancing STEM education in the next generation of students. FIRST® Robotics Competition is one of the programs– alongside FIRST® LEGO® Lego League, FIRST® Tech Challenge, and others– aimed specifically at high school students.
+          <WhatIsFirst heading="What is FIRST?">FIRST® (For Inspiration and Recognition of Science and Technology) is a non-profit organization dedicated to advancing STEM education in the next generation of students. FIRST® Robotics Competition is one of the programs– alongside FIRST® LEGO® League, FIRST® Tech Challenge, and others– aimed specifically at high school students.
             Find out more <a href="https://www.firstinspires.org/" target="_blank" rel="noreferrer" className="text-blue-500 hover:text-blue-900">here</a></WhatIsFirst>
           <div className="mt-20" />
           <OurTeam />
@@ -34,7 +34,7 @@ function About() {
 
           <SimpleGrid columns={{ base: 1, md: 2 }} mt="20" mx="auto" spacing="10">
             <div className="mx-auto" alignSelf="center">
-              <h1 className="text-4xl font-bold text-light-orange font-heading">Contact <span className="text-black">Us</span></h1>
+              <h1 className="text-4xl font-bold text-light-orange font-heading">Contact <span className="text-black dark:text-slate-200">Us</span></h1>
               <p className="italic mt-1">Feel free to reach out!</p>
 
               <p className=" mt-3 text-xl font-para"><span className="font-bold">Phone: </span>(919) 886-4388</p>
@@ -54,7 +54,7 @@ function About() {
                   </a>
                 </IconContext.Provider> */}
 
-                <IconContext.Provider value={{ className: "text-3xl text-dark-orange" }}>
+                <IconContext.Provider value={{ className: "text-3xl text-light-orange" }}>
                   <a href="https://github.com/ValenceRobotics" target="_blank" rel="noopener noreferrer">
                     <div className="mt-3">
                       <GoMarkGithub className="inline" />

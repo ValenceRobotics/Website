@@ -2,9 +2,10 @@ import { Box, Flex, Text, Img } from '@chakra-ui/react'
 import * as React from 'react'
 import { NavContent } from './NavContent'
 import { motion } from "framer-motion"
+import Logo from "../../assets/logo_dark.png"
 
 export const Navbar = (props) => (
-    <Box bg="white" color="black" py="3" position="sticky" top="0" zIndex="100" >
+    <Box bg="black" color="white" py="3" position="sticky" top="0" zIndex="100" >
         <Box as="header" height="16" position="relative">
             <Box
                 height="100%"
@@ -27,23 +28,23 @@ export const Navbar = (props) => (
                 >
                     <motion.a href="/" whileHover={{ scale: 1.1 }}>
                         <Img
-                            src="https://i.imgur.com/1FmyWBP.png"
+                            src={Logo}
                             h="3rem"
                             display="inline"
                             mr="3"
                             mt="-1"
                         />
                         <Text
-                            className="font-heading"
+                            className="font-heading font-name"
                             as="h1"
                             fontSize="3xl"
                             fontWeight="extrabold"
                             maxW="48rem"
                             display="inline"
-                            color="#F79B4C"
+                            color="#F4822F"
                         >Valence</Text>
                         <Text
-                            className="font-heading"
+                            className="font-heading font-name"
                             as="h1"
                             fontSize="3xl"
                             fontWeight="extrabold"

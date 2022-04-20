@@ -9,7 +9,7 @@ import Resources from "./Resources";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen dark:bg-black dark:text-slate-200">
 
         <Routes>
           <Route path="/" element={<Home />} />

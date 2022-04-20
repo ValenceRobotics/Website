@@ -1,4 +1,4 @@
-import Logo from "../assets/logo.png"
+import Logo from "../assets/logo_black.png"
 import { Link } from 'react-router-dom';
 import { Link as CharkaLink } from "@chakra-ui/react"
 
@@ -44,7 +44,7 @@ function Footer() {
     }
 
     return (
-        <div className="bg-footer mt-24 pt-16 pb-8 px-4 md:px-16">
+        <div className="bg-footer mt-24 pt-16 pb-8 px-4 md:px-16 dark:bg-light-orange text-slate-900">
             <div className="flex flex-wrap justify-evenly gap-y-12 gap-x-6">
                 <img className="w-24 h-24 lg:w-32 lg:h-32 justify-self-center" src={Logo} alt="Valence Robotics Logo" />
 
@@ -67,12 +67,12 @@ function Footer() {
                 <div id="formResponse">
                     <h1 className="font-bold text-xl mb-2 font-heading">Join our Newsletter!</h1>
                     <input className="text-base md:text-lg placeholder:text:grey-text rounded-l-lg px-3 py-1 font-para" id="email" placeholder="Email" />
-                    <button className="rounded-r-lg font-para text-base md:text-lg bg-dark-orange text-white font-bold duration-300 hover:bg-darker-orange py-1 px-5" id="signup" onClick={subscribeEmail}>Join</button>
+                    <button className="rounded-r-lg font-para text-base md:text-lg bg-dark-orange text-white font-bold duration-300 hover:bg-darker-orange py-1 px-5 dark:bg-button-dark-orange dark:hover:bg-darkest-orange" id="signup" onClick={subscribeEmail}>Join</button>
                 </div>
             </div>
 
-            <div className="mt-16 mx-16 lg:mx-32 h-1 bg-grey-text opacity-20" />
-            <p className="mt-4 text-center text-grey-text opacity-70 font-para">&copy; 2021 Valence Robotics | All Rights Reserved</p>
+            <div className="mt-16 mx-16 lg:mx-32 h-1 bg-slate-900 opacity-40" />
+            <p className="mt-4 text-center text-grey-text opacity-87 font-para dark:text-slate-900">&copy; 2021 Valence Robotics | All Rights Reserved</p>
         </div>
     );
 }

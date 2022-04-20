@@ -18,13 +18,13 @@ function Home() {
                 <div className="mx-auto flex flex-wrap justify-evenly gap-y-16">
                     <div className="flex justify-center">
                         <div className="m-auto text-center">
-                            <h1 className="text-7xl font-bold text-center font-heading"><span className="text-light-orange">Valence</span> Robotics</h1>
+                            <h1 className="text-7xl font-bold text-center font-name"><span className="text-logo-orange">Valence</span> Robotics</h1>
 
-                            <p className="text-center text-lg text-gray-500 italic mt-8 px-12 font-para">Transforming the students of today into the leaders of tomorrow</p>
+                            <p className="text-center text-lg text-slate-200 italic mt-8 px-12 font-para">Transforming the students of today into the leaders of tomorrow</p>
 
                             <div className="mt-8 flex justify-center gap-6">
                                 <Button className="" text="Join Us" to="https://docs.google.com/forms/d/e/1FAIpQLScqY1hIwYAXldG9aOpobT0Uxm4xXzQeZVyaQUJAkupFeL6QHw/viewform" dark={true} />
-                                <Button className="" text="Sponsor Us" to="sponsor" />
+                                <Button className="" text="Sponsor Us" to="sponsor" dark={true} />
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ function Home() {
                 </div>
 
                 <div className="container mx-auto mt-24 px-4">
-                    <h1 className="text-4xl font-bold text-center text-dark-orange my-4 font-heading"><span className="text-black">Current</span> Sponsors</h1>
+                    <h1 className="text-4xl font-bold text-center text-button-orange my-4 font-heading"><span className="text-black dark:text-slate-200">Current</span> Sponsors</h1>
 
 
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
