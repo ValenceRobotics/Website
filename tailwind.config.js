@@ -13,7 +13,11 @@ module.exports = {
         'lighter-orange': '#F8A780',
         'yellow': '#FFDA7B',
         'grey-text': "#6F6F6F",
-        "purple": "#8E2DE2"
+        "purple": "#8E2DE2",
+        'logo-orange': '#F4822F',
+        'border-orange': '#F47318',
+        'button-orange': '#F79B4C',
+        'button-dark-orange': '#F47318'
       },
       fontFamily: {
         para: ['Chivo', 'sans-serif'],

@@ -10,7 +10,7 @@ function Jumbotron() {
 
             <div className="flex justify-center">
                 <div className="m-auto text-center">
-                    <h1 className="lg:text-7xl text-5xl font-bold text-center"><span className="text-light-orange font-heading">About</span> Us</h1>
+                    <h1 className="lg:text-7xl text-5xl font-bold text-center"><span className="text-logo-orange font-heading">About</span> Us</h1>
 
                     <p className="text-center text-lg text-slate-200 italic mt-8 font-para">Valence Robotics FRC Team 8429</p>
 

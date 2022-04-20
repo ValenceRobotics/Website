@@ -34,7 +34,7 @@ function About() {
 
           <SimpleGrid columns={{ base: 1, md: 2 }} mt="20" mx="auto" spacing="10">
             <div className="mx-auto" alignSelf="center">
-              <h1 className="text-4xl font-bold text-light-orange font-heading">Contact <span className="text-black">Us</span></h1>
+              <h1 className="text-4xl font-bold text-light-orange font-heading">Contact <span className="text-black dark:text-slate-200">Us</span></h1>
               <p className="italic mt-1">Feel free to reach out!</p>
 
               <p className=" mt-3 text-xl font-para"><span className="font-bold">Phone: </span>(919) 886-4388</p>
@@ -54,7 +54,7 @@ function About() {
                   </a>
                 </IconContext.Provider> */}
 
-                <IconContext.Provider value={{ className: "text-3xl text-dark-orange" }}>
+                <IconContext.Provider value={{ className: "text-3xl text-light-orange" }}>
                   <a href="https://github.com/ValenceRobotics" target="_blank" rel="noopener noreferrer">
                     <div className="mt-3">
                       <GoMarkGithub className="inline" />

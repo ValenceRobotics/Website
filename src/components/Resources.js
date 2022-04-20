@@ -23,26 +23,30 @@ function Resources() {
                     desc="Branding, Marketing, and more"
                 />
 
-                <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Important <span className="text-black dark:text-slate-200">Links</span></h1>
+                {/* <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Important <span className="text-black dark:text-slate-200">Links</span></h1> */}
                 <div className="text-center mt-10">
                     <Button
                         text="Recruitment Flyer"
                         to="https://drive.google.com/file/d/1TYVliDqq0FMK3smyTm_OdNbufVAErv9c/view?usp=sharing"
+                        dark={true}
                     />
                     <div className="my-4 md:inline md:mx-3"></div>
                     <Button
                         text="Branding Document"
                         to="https://docs.google.com/document/d/1Fc0RgRXL9f0TvXlq7sW3yHkdeqg2uJ7H_sZClSpjRcs/edit?usp=sharing"
+                        dark={true}
                     />
                     <div className="my-4 md:inline md:mx-3"></div>
                     <Button
                         text="Sponsor Packet"
                         to="https://docs.google.com/document/d/1SUuSq2FaKFuLpAshwy7bJuyLd-E8XxW0zukyqIxsPWM/edit?usp=sharing"
+                        dark={true}
                     />
                     <div className="my-4 md:inline md:mx-3"></div>
                     <Button
                         text="Sponsor Prospectus"
                         to="https://docs.google.com/document/d/1d3A2Ku_GVVgfd2HPE7kV2fmR1c9gbt2rTsEbtXR_F70/edit?usp=sharing"
+                        dark={true}
                     />
                 </div>
 
