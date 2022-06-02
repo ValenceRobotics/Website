@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8c860eb.css",
-    "main.js": "/static/js/main.83d32e57.js",
+    "main.css": "/static/css/main.4bd6b6bd.css",
+    "main.js": "/static/js/main.6e1f9b27.js",
+    "static/media/Camp.png": "/static/media/Camp.6162449c905944c2aba1.png",
     "static/media/team_picture.jpg": "/static/media/team_picture.4bb700da7f87985ef1ee.jpg",
     "static/media/team3.png": "/static/media/team3.beb642758c25f5817cd9.png",
     "static/media/Branding Document.pdf": "/static/media/Branding Document.65a4dd0646c930fa8e6c.pdf",
@@ -9,16 +10,18 @@
     "static/media/21-22 Valence Robotics Prospectus.pdf": "/static/media/21-22 Valence Robotics Prospectus.ad6cd1c09fcdd8cc453c.pdf",
     "static/media/Sponsor Packet.pdf": "/static/media/Sponsor Packet.a66e6bbd1826a9d10633.pdf",
     "static/media/logo_black.png": "/static/media/logo_black.694fe251d53938ae93ed.png",
+    "static/media/drone_website_file.png": "/static/media/drone_website_file.469200e742f3b6640911.png",
     "static/media/honeynest_realty.png": "/static/media/honeynest_realty.0366673040b3f28c8f22.png",
     "static/media/logo_dark.png": "/static/media/logo_dark.fdd413ef8e8afe97c663.png",
+    "static/media/programming_website_files.png": "/static/media/programming_website_files.07443aeb0aa86931ce80.png",
     "static/media/orbitron-all-700-normal.woff": "/static/media/orbitron-all-700-normal.5889fd5deac84a7e66f1.woff",
     "static/media/orbitron-latin-700-normal.woff2": "/static/media/orbitron-latin-700-normal.1dd65521289a8d42182e.woff2",
     "index.html": "/index.html",
-    "main.f8c860eb.css.map": "/static/css/main.f8c860eb.css.map",
-    "main.83d32e57.js.map": "/static/js/main.83d32e57.js.map"
+    "main.4bd6b6bd.css.map": "/static/css/main.4bd6b6bd.css.map",
+    "main.6e1f9b27.js.map": "/static/js/main.6e1f9b27.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8c860eb.css",
-    "static/js/main.83d32e57.js"
+    "static/css/main.4bd6b6bd.css",
+    "static/js/main.6e1f9b27.js"
   ]
 }
