@@ -5,6 +5,7 @@ import About from "./About/About";
 import Footer from "./Footer";
 import Sponsor from "./Sponsor/Sponsor";
 import Resources from "./Resources";
+import Camps from "./Camps";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="sponsor" element={<Sponsor />} />
           <Route path="resources" element={<Resources />} />
+          <Route path="camps" element={<Camps />} />
           <Route path="Website" element={<Navigate replace to="/" />} />
         </Routes>
 

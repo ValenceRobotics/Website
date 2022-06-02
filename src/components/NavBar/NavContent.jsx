@@ -28,6 +28,10 @@ const links = [
     {
         label: 'Resources',
         href: '/resources',
+    },
+    {
+        label: 'Camps',
+        href: '/camps',
     }
 ]
 
