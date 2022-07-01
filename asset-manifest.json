@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4bd6b6bd.css",
-    "main.js": "/static/js/main.6e1f9b27.js",
+    "main.css": "/static/css/main.1ccc497f.css",
+    "main.js": "/static/js/main.45c386fa.js",
     "static/media/Camp.png": "/static/media/Camp.6162449c905944c2aba1.png",
     "static/media/team_picture.jpg": "/static/media/team_picture.4bb700da7f87985ef1ee.jpg",
     "static/media/team3.png": "/static/media/team3.beb642758c25f5817cd9.png",
@@ -17,11 +17,11 @@
     "static/media/orbitron-all-700-normal.woff": "/static/media/orbitron-all-700-normal.5889fd5deac84a7e66f1.woff",
     "static/media/orbitron-latin-700-normal.woff2": "/static/media/orbitron-latin-700-normal.1dd65521289a8d42182e.woff2",
     "index.html": "/index.html",
-    "main.4bd6b6bd.css.map": "/static/css/main.4bd6b6bd.css.map",
-    "main.6e1f9b27.js.map": "/static/js/main.6e1f9b27.js.map"
+    "main.1ccc497f.css.map": "/static/css/main.1ccc497f.css.map",
+    "main.45c386fa.js.map": "/static/js/main.45c386fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bd6b6bd.css",
-    "static/js/main.6e1f9b27.js"
+    "static/css/main.1ccc497f.css",
+    "static/js/main.45c386fa.js"
   ]
 }
