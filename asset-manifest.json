@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4bd6b6bd.css",
-    "main.js": "/static/js/main.dfe3f49c.js",
+    "main.js": "/static/js/main.32530420.js",
     "static/media/Camp.png": "/static/media/Camp.6162449c905944c2aba1.png",
     "static/media/team_picture.jpg": "/static/media/team_picture.4bb700da7f87985ef1ee.jpg",
     "static/media/team3.png": "/static/media/team3.beb642758c25f5817cd9.png",
@@ -18,10 +18,10 @@
     "static/media/orbitron-latin-700-normal.woff2": "/static/media/orbitron-latin-700-normal.1dd65521289a8d42182e.woff2",
     "index.html": "/index.html",
     "main.4bd6b6bd.css.map": "/static/css/main.4bd6b6bd.css.map",
-    "main.dfe3f49c.js.map": "/static/js/main.dfe3f49c.js.map"
+    "main.32530420.js.map": "/static/js/main.32530420.js.map"
   },
   "entrypoints": [
     "static/css/main.4bd6b6bd.css",
-    "static/js/main.dfe3f49c.js"
+    "static/js/main.32530420.js"
   ]
 }
