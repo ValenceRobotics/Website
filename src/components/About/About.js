@@ -57,21 +57,15 @@ function About() {
                 Contact{" "}
                 <span className="text-black dark:text-slate-200">Us</span>
               </h1>
-              <p className="italic mt-1">
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSeLQs0lQfWemMqAMV-yV4p-2MpGGPK2U-7s2skTfnoMSWUepQ/viewform"
-                  className="text-dark-orange underline hover:text-dark-orange"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Feel free to reach out!
-                </a>
-              </p>
+              <p className="italic mt-1">Feel free to reach out!</p>
 
               <p className=" mt-3 text-xl font-para">
                 <span className="font-bold">Phone: </span>(919) 886-4388
               </p>
-              {/* <p className="  text-xl font-para"><span className="font-bold">Email: </span>leadership@valencerobotics.org</p> */}
+              <p className="  text-xl font-para">
+                <span className="font-bold">Email: </span>
+                valencerobotics@gmail.com
+              </p>
               <p className="  text-xl font-para">
                 <span className="font-bold">Location: </span>Durham, NC
               </p>
