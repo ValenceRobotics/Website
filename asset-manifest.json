@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.4bd6b6bd.css",
-    "main.js": "/static/js/main.32530420.js",
-    "static/media/Camp.png": "/static/media/Camp.6162449c905944c2aba1.png",
+    "main.css": "/static/css/main.9caf59a4.css",
+    "main.js": "/static/js/main.15cbf3ba.js",
     "static/media/team_picture.jpg": "/static/media/team_picture.4bb700da7f87985ef1ee.jpg",
-    "static/media/team3.png": "/static/media/team3.beb642758c25f5817cd9.png",
     "static/media/Branding Document.pdf": "/static/media/Branding Document.65a4dd0646c930fa8e6c.pdf",
-    "static/media/three_oaks.jpg": "/static/media/three_oaks.7d9e65de6eabb9c35e6c.jpg",
+    "static/media/area27.png": "/static/media/area27.7efb30fa09b8a848f66e.png",
     "static/media/21-22 Valence Robotics Prospectus.pdf": "/static/media/21-22 Valence Robotics Prospectus.ad6cd1c09fcdd8cc453c.pdf",
     "static/media/Sponsor Packet.pdf": "/static/media/Sponsor Packet.a66e6bbd1826a9d10633.pdf",
+    "static/media/intuitivefoundation.png": "/static/media/intuitivefoundation.fe33f07643d73647ab35.png",
     "static/media/logo_black.png": "/static/media/logo_black.694fe251d53938ae93ed.png",
-    "static/media/drone_website_file.png": "/static/media/drone_website_file.469200e742f3b6640911.png",
-    "static/media/honeynest_realty.png": "/static/media/honeynest_realty.0366673040b3f28c8f22.png",
+    "static/media/teconnectivity.png": "/static/media/teconnectivity.40dfab74980150018a6b.png",
     "static/media/logo_dark.png": "/static/media/logo_dark.fdd413ef8e8afe97c663.png",
-    "static/media/programming_website_files.png": "/static/media/programming_website_files.07443aeb0aa86931ce80.png",
+    "static/media/apple.jpeg": "/static/media/apple.263f1fa1175609374170.jpeg",
+    "static/media/dukepratt.jpeg": "/static/media/dukepratt.c7f4cbc76d216a5b0cc5.jpeg",
+    "static/media/burroughs.jpeg": "/static/media/burroughs.30aa6c99e634dc9d17ea.jpeg",
     "static/media/orbitron-all-700-normal.woff": "/static/media/orbitron-all-700-normal.5889fd5deac84a7e66f1.woff",
     "static/media/orbitron-latin-700-normal.woff2": "/static/media/orbitron-latin-700-normal.1dd65521289a8d42182e.woff2",
     "index.html": "/index.html",
-    "main.4bd6b6bd.css.map": "/static/css/main.4bd6b6bd.css.map",
-    "main.32530420.js.map": "/static/js/main.32530420.js.map"
+    "main.9caf59a4.css.map": "/static/css/main.9caf59a4.css.map",
+    "main.15cbf3ba.js.map": "/static/js/main.15cbf3ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bd6b6bd.css",
-    "static/js/main.32530420.js"
+    "static/css/main.9caf59a4.css",
+    "static/js/main.15cbf3ba.js"
   ]
 }
