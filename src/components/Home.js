@@ -1,7 +1,13 @@
 import Button from "./About/Button.js";
-import TeamPhoto from "../assets/team3.png";
-import HoneyNest from "../assets/honeynest_realty.png";
-import ThreeOaks from "../assets/three_oaks.jpg";
+
+import Area27 from "../assets/sponsors/area27.png";
+import DukePratt from "../assets/sponsors/dukepratt.jpeg";
+import TEConnectivity from "../assets/sponsors/teconnectivity.png";
+import burroughsWellcome from "../assets/sponsors/burroughs.jpeg";
+import intuitiveFoundation from "../assets/sponsors/intuitivefoundation.png";
+import apple from "../assets/sponsors/apple.jpeg";
+import nasa from "../assets/sponsors/nasa.png";
+
 import { Navbar } from "./NavBar";
 import Banner from "./Banner";
 import SponsorCard from "./Sponsor/SponsorCard.js";
@@ -13,6 +19,7 @@ function Home() {
     unScaleDimensions[0] / scaleFactor,
     unScaleDimensions[1] / scaleFactor,
   ];
+
   return (
     <>
       <Navbar active="home" />
@@ -94,20 +101,48 @@ function Home() {
             Sponsors
           </h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="columns-1 md:columns-2 lg:columns-3 gap-4">
             <SponsorCard
-              companyName="HoneyNest Realty"
-              desc="We are on a mission to find your sweet nest and grow your “nest” worth."
-              img={HoneyNest}
-              tier="Neon Tier Sponsor"
+              companyName="Area 27"
+              desc="AREA 27 was a FIRST Robotics Competition team, and our inaugural (and final) year was 2020."
+              img={Area27}
+              tier="Radon Tier Sponsor"
             />
-
             <SponsorCard
-              companyName="Three Oaks Engineering"
-              desc="Three Oaks Engineering is a woman-owned business focused on helping our clients accomplish infrastructure projects with careful consideration of community and environmental needs."
-              img={ThreeOaks}
-              tier="Krypton Tier Sponsor"
-              href="https://threeoaksengineering.com/"
+              companyName="Duke Pratt School of Engineering"
+              desc="The Pratt School of Engineering is located at Duke University in the United States. The school's associated research, education, alumni and service-to-society efforts are collectively known as Duke Engineering."
+              img={DukePratt}
+              tier="Radon Tier Sponsor"
+            />
+            <SponsorCard
+              companyName="TE Connectivity"
+              desc="TE Connectivity is an American Swiss-domiciled technology company that designs and manufactures connectors and sensors for several industries, such as automotive, industrial equipment, data communication systems, aerospace, defense, medical, oil and gas, consumer electronics and energy."
+              img={TEConnectivity}
+              tier="Xenon Tier Sponsor"
+            />
+            <SponsorCard
+              companyName="Burroughs Wellcome Fund"
+              desc="The Burroughs Wellcome Fund is an American non-profit medical research organization that provides funding for biomedical research, STEM education, and areas of career development for scientists. Since 1970, it has been headquartered in North Carolina's Research Triangle Park."
+              img={burroughsWellcome}
+              tier="Radon Tier Sponsor"
+            />
+            <SponsorCard
+              companyName="Intuitive Foundation"
+              desc="The Intuitive Foundation is dedicated to reducing the global burden of disease and suffering through philanthropy, research and education aimed at better outcomes for patients everywhere"
+              img={intuitiveFoundation}
+              tier="Xenon Tier Sponsor"
+            />
+            <SponsorCard
+              companyName="Apple"
+              desc="Apple Inc. is an American multinational technology company headquartered in Cupertino, California, United States."
+              img={apple}
+              tier="Radon Tier Sponsor"
+            />
+            <SponsorCard
+              companyName="NASA"
+              desc="The National Aeronautics and Space Administration is an independent agency of the United States federal government responsible for the civilian space program, as well as aeronautics and space research."
+              img={nasa}
+              tier="Radon Tier Sponsor"
             />
           </div>
         </div>
