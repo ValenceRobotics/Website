@@ -60,7 +60,7 @@ function About() {
               <p className="italic mt-1">Feel free to reach out!</p>
 
               <p className=" mt-3 text-xl font-para">
-                <span className="font-bold">Phone: </span>(919) 886-4388
+                <span className="font-bold">Phone: </span>(984) 269-8507
               </p>
               <p className="  text-xl font-para">
                 <span className="font-bold">Email: </span>
@@ -139,7 +139,7 @@ function About() {
               scrolling="no"
               marginheight="0"
               marginwidth="0"
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Durham,%20NC%2027705+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Durham,%20NC%2027705+(Valence Robotics)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             >
               <a href="https://www.gps.ie/sport-gps/">bike gps</a>
             </iframe>
