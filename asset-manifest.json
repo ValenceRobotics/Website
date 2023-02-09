@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9caf59a4.css",
-    "main.js": "/static/js/main.15cbf3ba.js",
-    "static/media/team_picture.jpg": "/static/media/team_picture.4bb700da7f87985ef1ee.jpg",
+    "main.js": "/static/js/main.44b94404.js",
+    "static/media/team_picture.jpg": "/static/media/team_picture.fcc7771544e348fe9c8e.jpg",
     "static/media/Branding Document.pdf": "/static/media/Branding Document.65a4dd0646c930fa8e6c.pdf",
     "static/media/area27.png": "/static/media/area27.7efb30fa09b8a848f66e.png",
     "static/media/21-22 Valence Robotics Prospectus.pdf": "/static/media/21-22 Valence Robotics Prospectus.ad6cd1c09fcdd8cc453c.pdf",
@@ -18,10 +18,10 @@
     "static/media/orbitron-latin-700-normal.woff2": "/static/media/orbitron-latin-700-normal.1dd65521289a8d42182e.woff2",
     "index.html": "/index.html",
     "main.9caf59a4.css.map": "/static/css/main.9caf59a4.css.map",
-    "main.15cbf3ba.js.map": "/static/js/main.15cbf3ba.js.map"
+    "main.44b94404.js.map": "/static/js/main.44b94404.js.map"
   },
   "entrypoints": [
     "static/css/main.9caf59a4.css",
-    "static/js/main.15cbf3ba.js"
+    "static/js/main.44b94404.js"
   ]
 }
