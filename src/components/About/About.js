@@ -139,7 +139,7 @@ function About() {
               scrolling="no"
               marginheight="0"
               marginwidth="0"
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Durham,%20NC%2027705+(Valence Robotics)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.7854115918017!2d-78.94668018447898!3d36.00110951996912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace6b05ff94eff%3A0x69e83452ec106d7!2s140%20Science%20Dr%2C%20Durham%2C%20NC%2027710!5e0!3m2!1sen!2sus!4v1676139200467!5m2!1sen!2sus"
             >
               <a href="https://www.gps.ie/sport-gps/">bike gps</a>
             </iframe>
