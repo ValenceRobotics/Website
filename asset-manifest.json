@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.9caf59a4.css",
-    "main.js": "/static/js/main.e6c6b46a.js",
+    "main.css": "/static/css/main.23840443.css",
+    "main.js": "/static/js/main.ffcf3b13.js",
     "static/media/team_picture.jpg": "/static/media/team_picture.fcc7771544e348fe9c8e.jpg",
-    "static/media/Branding Document.pdf": "/static/media/Branding Document.65a4dd0646c930fa8e6c.pdf",
     "static/media/area27.png": "/static/media/area27.7efb30fa09b8a848f66e.png",
-    "static/media/21-22 Valence Robotics Prospectus.pdf": "/static/media/21-22 Valence Robotics Prospectus.ad6cd1c09fcdd8cc453c.pdf",
+    "static/media/Branding Document.pdf": "/static/media/Branding Document.32d561864c124d9c84c4.pdf",
+    "static/media/2022-23 Valence Robotics Prospectus.pdf": "/static/media/2022-23 Valence Robotics Prospectus.26644734c5ee574ba8d3.pdf",
     "static/media/Sponsor Packet.pdf": "/static/media/Sponsor Packet.a66e6bbd1826a9d10633.pdf",
     "static/media/intuitivefoundation.png": "/static/media/intuitivefoundation.fe33f07643d73647ab35.png",
     "static/media/logo_black.png": "/static/media/logo_black.694fe251d53938ae93ed.png",
@@ -17,11 +17,11 @@
     "static/media/orbitron-all-700-normal.woff": "/static/media/orbitron-all-700-normal.5889fd5deac84a7e66f1.woff",
     "static/media/orbitron-latin-700-normal.woff2": "/static/media/orbitron-latin-700-normal.1dd65521289a8d42182e.woff2",
     "index.html": "/index.html",
-    "main.9caf59a4.css.map": "/static/css/main.9caf59a4.css.map",
-    "main.e6c6b46a.js.map": "/static/js/main.e6c6b46a.js.map"
+    "main.23840443.css.map": "/static/css/main.23840443.css.map",
+    "main.ffcf3b13.js.map": "/static/js/main.ffcf3b13.js.map"
   },
   "entrypoints": [
-    "static/css/main.9caf59a4.css",
-    "static/js/main.e6c6b46a.js"
+    "static/css/main.23840443.css",
+    "static/js/main.ffcf3b13.js"
   ]
 }
