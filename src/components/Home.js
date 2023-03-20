@@ -13,12 +13,12 @@ import Banner from "./Banner";
 import SponsorCard from "./Sponsor/SponsorCard.js";
 
 function Home() {
-  const unScaleDimensions = [1920, 1080];
-  const scaleFactor = 3;
-  const scaleDimensions = [
-    unScaleDimensions[0] / scaleFactor,
-    unScaleDimensions[1] / scaleFactor,
-  ];
+  // const unScaleDimensions = [1920, 1080];
+  // const scaleFactor = 3;
+  // const scaleDimensions = [
+  //   unScaleDimensions[0] / scaleFactor,
+  //   unScaleDimensions[1] / scaleFactor,
+  // ];
 
   return (
     <>
@@ -51,19 +51,6 @@ function Home() {
                 />
               </div>
             </div>
-          </div>
-          <div className="flex justify-center">
-            {/* <img src={TeamPhoto} alt="our team" className="w-4/5 m-auto" /> */}
-            {/* <iframe src="https://www.youtube.com/watch?v=Pwgoh07PFj0" width={scaleDimensions[0]} height={scaleDimensions[1]} allow="autoplay"></iframe> */}
-            <iframe
-              width={scaleDimensions[0]}
-              height={scaleDimensions[1]}
-              src="https://www.youtube.com/embed/Pwgoh07PFj0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
           </div>
         </div>
 
@@ -100,6 +87,13 @@ function Home() {
             <span className="text-black dark:text-slate-200">Current</span>{" "}
             Sponsors
           </h1>
+          <p className="text-center max-w-md mx-auto mt-3 font-para">
+            We are grateful for the support of our sponsors. Without their
+            generosity, we would not be able to pursue our mission.
+          </p>
+          <h2 className="text-2xl text-center font-normal font-heading my-3">
+            Radon Tier Sponsors
+          </h2>
 
           <div className="columns-1 md:columns-2 lg:columns-3 gap-4">
             <SponsorCard
@@ -115,24 +109,6 @@ function Home() {
               tier="Radon Tier Sponsor"
             />
             <SponsorCard
-              companyName="TE Connectivity"
-              desc="TE Connectivity is an American Swiss-domiciled technology company that designs and manufactures connectors and sensors for several industries, such as automotive, industrial equipment, data communication systems, aerospace, defense, medical, oil and gas, consumer electronics and energy."
-              img={TEConnectivity}
-              tier="Xenon Tier Sponsor"
-            />
-            <SponsorCard
-              companyName="Burroughs Wellcome Fund"
-              desc="The Burroughs Wellcome Fund is an American non-profit medical research organization that provides funding for biomedical research, STEM education, and areas of career development for scientists. Since 1970, it has been headquartered in North Carolina's Research Triangle Park."
-              img={burroughsWellcome}
-              tier="Radon Tier Sponsor"
-            />
-            <SponsorCard
-              companyName="Intuitive Foundation"
-              desc="The Intuitive Foundation is dedicated to reducing the global burden of disease and suffering through philanthropy, research and education aimed at better outcomes for patients everywhere"
-              img={intuitiveFoundation}
-              tier="Xenon Tier Sponsor"
-            />
-            <SponsorCard
               companyName="Apple"
               desc="Apple Inc. is an American multinational technology company headquartered in Cupertino, California, United States."
               img={apple}
@@ -143,6 +119,30 @@ function Home() {
               desc="The National Aeronautics and Space Administration is an independent agency of the United States federal government responsible for the civilian space program, as well as aeronautics and space research."
               img={nasa}
               tier="Radon Tier Sponsor"
+            />
+            <SponsorCard
+              companyName="Burroughs Wellcome Fund"
+              desc="The Burroughs Wellcome Fund is an American non-profit medical research organization that provides funding for biomedical research, STEM education, and areas of career development for scientists. Since 1970, it has been headquartered in North Carolina's Research Triangle Park."
+              img={burroughsWellcome}
+              tier="Radon Tier Sponsor"
+            />
+          </div>
+          <h2 className="text-2xl text-center font-normal font-heading my-3">
+            Xenon Tier Sponsors
+          </h2>
+          <div className="columns-1 md:columns-2 gap-4">
+            <SponsorCard
+              companyName="TE Connectivity"
+              desc="TE Connectivity is an American Swiss-domiciled technology company that designs and manufactures connectors and sensors for several industries, such as automotive, industrial equipment, data communication systems, aerospace, defense, medical, oil and gas, consumer electronics and energy."
+              img={TEConnectivity}
+              tier="Xenon Tier Sponsor"
+            />
+
+            <SponsorCard
+              companyName="Intuitive Foundation"
+              desc="The Intuitive Foundation is dedicated to reducing the global burden of disease and suffering through philanthropy, research and education aimed at better outcomes for patients everywhere"
+              img={intuitiveFoundation}
+              tier="Xenon Tier Sponsor"
             />
           </div>
         </div>

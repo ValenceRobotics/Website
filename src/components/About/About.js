@@ -1,6 +1,5 @@
 import InterestedInJoining from "./InterestedInJoining";
 import Jumbotron from "./Jumbotron";
-import MeetTheTeam from "./MeetTheTeam";
 import OurTeam from "./OurTeam";
 import WhatIsFirst from "./WhatIsFirst";
 import { Navbar } from "../NavBar";

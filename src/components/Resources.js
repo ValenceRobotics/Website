@@ -4,7 +4,7 @@ import Landing from "./Sponsor/Landing"
 import Button from "./About/Button";
 import Branding from '../assets/Branding Document.pdf'
 import SponsorshipPacket from '../assets/Sponsor Packet.pdf'
-import SponsorProspectus from '../assets/21-22 Valence Robotics Prospectus.pdf'
+import SponsorProspectus from '../assets/2022-23 Valence Robotics Prospectus.pdf'
 
 
 function Resources() {
@@ -25,11 +25,6 @@ function Resources() {
 
                 {/* <h1 className="text-4xl font-bold text-center text-light-orange mt-10 mb-5 font-heading">Important <span className="text-black dark:text-slate-200">Links</span></h1> */}
                 <div className="text-center mt-10">
-                    <Button
-                        text="Recruitment Flyer"
-                        to="https://drive.google.com/file/d/1TYVliDqq0FMK3smyTm_OdNbufVAErv9c/view?usp=sharing"
-                        dark={true}
-                    />
                     <div className="my-4 md:inline md:mx-3"></div>
                     <Button
                         text="Branding Document"
@@ -45,7 +40,7 @@ function Resources() {
                     <div className="my-4 md:inline md:mx-3"></div>
                     <Button
                         text="Sponsor Prospectus"
-                        to="https://docs.google.com/document/d/1d3A2Ku_GVVgfd2HPE7kV2fmR1c9gbt2rTsEbtXR_F70/edit?usp=sharing"
+                        to="https://docs.google.com/document/d/10CxtpBF3CUBEvQvdiMTTygSjt7mCjv0Mda16YhOJXmE/edit"
                         dark={true}
                     />
                 </div>
