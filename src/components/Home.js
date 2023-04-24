@@ -40,7 +40,7 @@ function Home() {
                 <Button
                   className=""
                   text="Join Us"
-                  to="https://docs.google.com/forms/d/e/1FAIpQLSeLQs0lQfWemMqAMV-yV4p-2MpGGPK2U-7s2skTfnoMSWUepQ/viewform"
+                  to="https://forms.gle/XDHLhtjhZRDmcG6q8"
                   dark={true}
                 />
                 <Button
