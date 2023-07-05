@@ -68,7 +68,7 @@ function Footer() {
                   <h1 className="font-bold text-xl mb-2 font-heading">Socials</h1>
                   <CharkaLink href="https://www.instagram.com/valence_robotics/" className="text-base font-normal text-gray-800 hover:text-black hover:underline font-para" isExternal>Instagram</CharkaLink><br />
                   <CharkaLink href="https://www.facebook.com/Team8429/" className="text-base font-normal text-gray-800 hover:text-black hover:underline font-para" isExternal>Facebook</CharkaLink><br />
-                  <CharkaLink href="https://www.linkedin.com/company/frc-team-8429-valence-robotics/" className="text-base font-normal text-gray-800 hover:text-black hover:underline font-para" isExternal>CharkaLinkedIn</CharkaLink><br />
+                  <CharkaLink href="https://www.linkedin.com/company/frc-team-8429-valence-robotics/" className="text-base font-normal text-gray-800 hover:text-black hover:underline font-para" isExternal>LinkedIn</CharkaLink><br />
                   <CharkaLink href="https://www.youtube.com/channel/UCHZhouxknFw9WPkhLWJGMmQ" className="text-base font-normal text-gray-800 hover:text-black hover:underline font-para" isExternal>Youtube</CharkaLink><br />
                 </div>
 
