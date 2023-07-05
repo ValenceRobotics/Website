@@ -64,11 +64,14 @@ function Footer() {
                     </div>
                 </div>
 
-                <div id="formResponse">
-                    <h1 className="font-bold text-xl mb-2 font-heading">Join our Newsletter!</h1>
-                    <input className="text-base md:text-lg placeholder:text:grey-text rounded-l-lg px-3 py-1 font-para" id="email" placeholder="Email" />
-                    <button className="rounded-r-lg font-para text-base md:text-lg bg-dark-orange text-white font-bold duration-300 hover:bg-darker-orange py-1 px-5 dark:bg-button-dark-orange dark:hover:bg-darkest-orange" id="signup" onClick={subscribeEmail}>Join</button>
+                <div>
+                  <h1 className="font-bold text-xl mb-2 font-heading">Socials</h1>
+                  <CharkaLink href="https://www.instagram.com/valence_robotics/" className="text-base font-normal text-gray-800 hover:text-black hover:underline font-para" isExternal>Instagram</CharkaLink><br />
+                  <CharkaLink href="https://www.facebook.com/Team8429/" className="text-base font-normal text-gray-800 hover:text-black hover:underline font-para" isExternal>Facebook</CharkaLink><br />
+                  <CharkaLink href="https://www.linkedin.com/company/frc-team-8429-valence-robotics/" className="text-base font-normal text-gray-800 hover:text-black hover:underline font-para" isExternal>CharkaLinkedIn</CharkaLink><br />
+                  <CharkaLink href="https://www.youtube.com/channel/UCHZhouxknFw9WPkhLWJGMmQ" className="text-base font-normal text-gray-800 hover:text-black hover:underline font-para" isExternal>Youtube</CharkaLink><br />
                 </div>
+
             </div>
 
             <div className="mt-16 mx-16 lg:mx-32 h-1 bg-slate-900 opacity-40" />
