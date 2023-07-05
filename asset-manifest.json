@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.23840443.css",
-    "main.js": "/static/js/main.0bcb8146.js",
+    "main.css": "/static/css/main.fa067429.css",
+    "main.js": "/static/js/main.aa80e289.js",
     "static/media/area27.png": "/static/media/area27.7efb30fa09b8a848f66e.png",
     "static/media/Branding Document.pdf": "/static/media/Branding Document.32d561864c124d9c84c4.pdf",
     "static/media/team_picture.jpg": "/static/media/team_picture.4857d5522d8918799af0.jpg",
@@ -17,11 +17,11 @@
     "static/media/orbitron-all-700-normal.woff": "/static/media/orbitron-all-700-normal.5889fd5deac84a7e66f1.woff",
     "static/media/orbitron-latin-700-normal.woff2": "/static/media/orbitron-latin-700-normal.1dd65521289a8d42182e.woff2",
     "index.html": "/index.html",
-    "main.23840443.css.map": "/static/css/main.23840443.css.map",
-    "main.0bcb8146.js.map": "/static/js/main.0bcb8146.js.map"
+    "main.fa067429.css.map": "/static/css/main.fa067429.css.map",
+    "main.aa80e289.js.map": "/static/js/main.aa80e289.js.map"
   },
   "entrypoints": [
-    "static/css/main.23840443.css",
-    "static/js/main.0bcb8146.js"
+    "static/css/main.fa067429.css",
+    "static/js/main.aa80e289.js"
   ]
 }
